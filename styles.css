@@ -1,0 +1,68 @@
+/* OVERWRITE */
+.channel_header_refresh:not(.loading) #client-ui, #quick_switcher_btn {
+    left: 50px!important;
+}
+
+#footer {
+    left: 270px!important;
+}
+
+#client_header .channel_header {
+    margin-right: 50px!important;
+}
+
+
+
+/* Menu styles */
+#teams-toolbar {
+    position: fixed;
+    width: 100px;
+    height: 100%;
+}
+
+#teams-toolbar ul {
+    list-style: none;
+    margin: 0;
+}
+
+#teams-toolbar ul li {
+    margin: 15px 7px;
+}
+
+#teams-toolbar ul li.active {
+    border-left: 2px solid #A0A0A0;
+    padding-left: 5px;
+    margin-left: 0;
+}
+
+#teams-toolbar ul li img{
+    width: 34px;
+    border-radius: 2px;
+    opacity: 0.5;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#teams-toolbar ul li.active img, #teams-toolbar ul li:hover img{
+    opacity: 1;
+}
+
+
+#teams-toolbar #add-team {
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+    right: 58px;
+    padding: 9px 0 0px 2px;
+}
+
+#teams-toolbar #add-team:hover {
+    background: #666;
+    border-radius: 5px;
+}
+
+#teams-toolbar #add-team a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #A9A9A9;
+}

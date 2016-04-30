@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+
+"name": "Slack Teams Toolbar",
+"description": "Add a toolbar to switch team easily.",
+"version": "1.0",
+
+"content_scripts": [
+    {
+        "run_at" :"document_end",
+        "matches": ["https://*.slack.com/messages*"],
+        "js": ["inject.js", "script.js"],
+        "css":["styles.css"]
+    }
+],
+"icons": { "128": "icon128.png" }
+}
