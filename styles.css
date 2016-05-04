@@ -1,5 +1,5 @@
 /* OVERWRITE */
-.channel_header_refresh:not(.loading) #client-ui, #quick_switcher_btn {
+#client-ui, #quick_switcher_btn {
     left: 50px!important;
 }
 
